@@ -478,7 +478,7 @@ class ExpoSpeechRecognitionModule : Module() {
                                 "Failed to retrieve supported locales with error: $error",
                                 Throwable(),
                             )
-                        }, 50)
+                        }, 300)
 
                         recognizer.destroy()
                     }
